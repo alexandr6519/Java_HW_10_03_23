@@ -51,7 +51,7 @@ public class Task_03 {
         return (double)sum / (double) size;
     }
     public static void main(String[] args) {
-        int n =30;
+        int n = 30;
         ArrayList<Integer> listNumbers = getListRandomNumbers(n);
         System.out.printf("The  list of %d random numbers (from 0 to 20) is: \n", n);
         printList(listNumbers);
